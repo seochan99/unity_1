@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{62BD1EF8-9B4E-9D67-673F-B3F50348062B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameManage.cs">
+    <Files>
+      <File FileName="Assets/ItemCan.cs" Line="15" Column="2" />
+      <File FileName="Assets/playerball.cs" />
+      <File FileName="Assets/Camera.cs" />
+      <File FileName="Assets/GameManage.cs" Line="15" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="prjoect1" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="ItemCan.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6108ea1a-5ec9-4b08-9c79-6348523cee33" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
