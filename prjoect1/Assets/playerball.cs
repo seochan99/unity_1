@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class playerball : MonoBehaviour
 {
-    public float JumpPower = 10;
+    public float JumpPower = 10; // 
     public int itemCount;
     bool isJump;
     public GameManage manager; // 이를 통해서 find사용을 자제해서 메모리사용량을 더욱 낮춘다 ! 
