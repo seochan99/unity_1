@@ -1,0 +1,218 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/2020.3.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/seochan/Documents/chans coding/unity_1/Unity 2D chans Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50279
+Successfully changed project path to: /Users/seochan/Documents/chans coding/unity_1/Unity 2D chans Project
+/Users/seochan/Documents/chans coding/unity_1/Unity 2D chans Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/seochan/Documents/chans coding/unity_1/Unity 2D chans Project/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-29 10:30:49.488 Unity[1446:34659] (null) preferred device: Apple M1 (high power)
+2021-04-29 10:30:49.488 Unity[1446:34659] Metal devices available: 1
+2021-04-29 10:30:49.488 Unity[1446:34659] 0: Apple M1 (high power)
+2021-04-29 10:30:49.488 Unity[1446:34659] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/2020.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56446
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.3f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002415 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.834 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.908 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 1.573333 ms (FindLiveObjects: 0.148167 ms CreateObjectMapping: 0.037792 ms MarkObjects: 1.274625 ms  DeleteObjects: 0.111750 ms)
+
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.2d.pixel-perfect/package.json
+  artifactKey: Guid(b1c570008ebc15d4183516ca5722a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.pixel-perfect/package.json using Guid(b1c570008ebc15d4183516ca5722a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061247665d703c7aefdc7b63243f1847') in 0.609684 seconds
+  Import took 0.612574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Packages/com.unity.2d.common/package.json
+  artifactKey: Guid(68f1917ec3cac45b080c26153375c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common/package.json using Guid(68f1917ec3cac45b080c26153375c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8895e364f550d9d10e091c63b2d425dc') in 0.001575 seconds
+  Import took 0.003874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Packages/com.unity.2d.common
+  artifactKey: Guid(a5dcdac2498697dc1122d527a3e49621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common using Guid(a5dcdac2498697dc1122d527a3e49621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dfcc29755f1902ecd0c52b0789f35f') in 0.000488 seconds
+  Import took 0.002484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Packages/com.unity.2d.animation/package.json
+  artifactKey: Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/package.json using Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ecb102238c1222d85d4a9d5605d3fc') in 0.002613 seconds
+  Import took 0.004873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048695 seconds.
+  path: Packages/com.unity.2d.path/package.json
+  artifactKey: Guid(990785fe75c54584ab4201a3e20e1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.path/package.json using Guid(990785fe75c54584ab4201a3e20e1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cd7b97466774e7c349622e5bec02c6') in 0.001697 seconds
+  Import took 0.004255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.903293 seconds.
+  path: Packages/com.unity.2d.path/Editor
+  artifactKey: Guid(ebb15515f9c03364089baa7120b54453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.path/Editor using Guid(ebb15515f9c03364089baa7120b54453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead76045643ca5df97485f12039f5b73') in 0.001137 seconds
+  Import took 0.004653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.118372 seconds.
+  path: Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef
+  artifactKey: Guid(4237adb6ac177124b8f4a94835b7b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef using Guid(4237adb6ac177124b8f4a94835b7b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd1d04629f75e00179d988e29f421fb') in 0.415799 seconds
+  Import took 0.418297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.393409 seconds.
+  path: Packages/com.unity.2d.path/Editor/IMGUI
+  artifactKey: Guid(66ae7362289f12c4d8da3f9f04cf4984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.path/Editor/IMGUI using Guid(66ae7362289f12c4d8da3f9f04cf4984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3953b6b3a8b4076a8a8f3f333fb8cb') in 0.001243 seconds
+  Import took 0.005387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.927527 seconds.
+  path: Packages/com.unity.2d.path/Editor/IMGUI/GUIFramework
+  artifactKey: Guid(33e44f9d4edce8344a708573c37ebe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.path/Editor/IMGUI/GUIFramework using Guid(33e44f9d4edce8344a708573c37ebe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49bf67a8c9d9a6adfdfb9cf6a20f06c') in 0.001189 seconds
+  Import took 0.004834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.185982 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9119f0fd161d92f7007f10e51875bd3') in 0.003965 seconds
+  Import took 0.008400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008119 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9119f0fd161d92f7007f10e51875bd3') in 0.001790 seconds
+  Import took 0.005136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.988607 seconds.
+  path: Packages/com.unity.mathematics/package.json
+  artifactKey: Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.mathematics/package.json using Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d250bc5145a90b3018e13367942c87') in 0.002455 seconds
+  Import took 0.007066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.979592 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2c54a45364b731cf13813a76f19903') in 0.002830 seconds
+  Import took 0.006353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008374 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2c54a45364b731cf13813a76f19903') in 0.001490 seconds
+  Import took 0.004482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.365120 seconds.
+  path: Packages/com.unity.ext.nunit/net35
+  artifactKey: Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/net35 using Guid(a36d8b72880a8004f96ac54ce4598ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab217a4600d3fc2af4b3e96e62c96c56') in 0.001357 seconds
+  Import took 0.004568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.794253 seconds.
+  path: Packages/com.unity.ext.nunit/README.md
+  artifactKey: Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/README.md using Guid(5da62a0c1c5218c4aa16b74546a7822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9299815ee8dffc16e47e9cbccabf9b37') in 0.939306 seconds
+  Import took 0.942943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.780128 seconds.
+  path: Packages/com.unity.ext.nunit/LICENSE.md
+  artifactKey: Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/LICENSE.md using Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e3dced0552484575379700cb55e0f0') in 0.001767 seconds
+  Import took 0.004421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001307 seconds.
+  path: Packages/com.unity.ext.nunit/LICENSE.md
+  artifactKey: Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/LICENSE.md using Guid(f91a00d2dca52b843b2d50ccf750737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e3dced0552484575379700cb55e0f0') in 0.001565 seconds
+  Import took 0.003953 seconds .
+
