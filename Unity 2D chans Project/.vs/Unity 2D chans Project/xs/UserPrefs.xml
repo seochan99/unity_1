@@ -1,9 +1,9 @@
-﻿<Properties StartupConfiguration="{2DFDE6E5-F514-E58B-F200-5200AE394890}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/PlayerMove.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/GameManager.cs">
     <Files>
-      <File FileName="Assets/script/Enemy.cs" Line="67" Column="37" />
-      <File FileName="Assets/script/PlayerMove.cs" Line="139" Column="1" />
-      <File FileName="Assets/script/GameManager.cs" Line="22" Column="34" />
+      <File FileName="Assets/script/Enemy.cs" Line="69" Column="20" />
+      <File FileName="Assets/script/PlayerMove.cs" Line="172" Column="39" />
+      <File FileName="Assets/script/GameManager.cs" Line="31" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
