@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Enemy.cs">
     <Files>
       <File FileName="Assets/script/PlayerMove.cs" Line="72" Column="14" />
-      <File FileName="Assets/script/Enemy.cs" Line="10" Column="5" />
+      <File FileName="Assets/script/Enemy.cs" Line="33" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
