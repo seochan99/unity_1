@@ -7,12 +7,13 @@ public class Enemy : MonoBehaviour
 {
     Rigidbody2D rigid;
     public int nextMove; // 행동 지표를 결정할 변수 하나 생성
-    
+
+
+
 
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
-        Think();
 
         Invoke("Think", 3); //주어진 시간이 지난뒤 지정된 함수를 실행하는 함수 
     }
@@ -36,9 +37,10 @@ public class Enemy : MonoBehaviour
 
     void Think()
     {
-        nextMove = Random.Range(-1, 2);
+        nextMove = Random.Range(-2, 3);
 
         Think(); // 딜레이 없이 재귀함수 쓰면 에러 난다!
-        Invoke("Think", 3);
+        float nextThinkTime = Random.Range(2f, 5f);
+        Invoke("Think", nextThinkTime);
     }
 }

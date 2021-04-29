@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 194216384}
   - component: {fileID: 194216383}
   - component: {fileID: 194216387}
-  - component: {fileID: 194216388}
+  - component: {fileID: 194216389}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -164,7 +164,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &194216384
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -275,7 +275,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &194216388
+--- !u!114 &194216389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
