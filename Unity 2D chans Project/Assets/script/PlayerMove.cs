@@ -10,12 +10,14 @@ public class PlayerMove : MonoBehaviour
     Rigidbody2D rigid;
     SpriteRenderer spriteRenderer;
     Animator anim;
+    CircleCollider2D CircleCollider;
 
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        CircleCollider = GetComponent<CircleCollider2D>();
     }
 
     void Update()
@@ -111,7 +113,7 @@ public class PlayerMove : MonoBehaviour
         else if(collision.gameObject.tag == "Finish")
         {
             // next stage
-
+            gameManager.NextStage();
         }
     }
 
@@ -131,6 +133,9 @@ public class PlayerMove : MonoBehaviour
     {
         gameObject.layer = 9;
 
+        //health
+        gameManager.HealthDown();
+
         //view alpha
         spriteRenderer.color = new Color(1, 1, 1, 0.4f);
 
@@ -149,5 +154,21 @@ public class PlayerMove : MonoBehaviour
         gameObject.layer = 8;
         spriteRenderer.color = new Color(1, 1, 1, 1);
 
+    }
+    public void Ondie()
+    {
+        //Sprite Alpha
+        spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+        //Sprite FLip Y
+        spriteRenderer.flipY = true;
+        //Collider Disable
+        CircleCollider.enabled = false;
+        //Die Effect Jump
+        rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+    }
+
+    public void VelocityZero()
+    {
+        rigid.velocity = Vector2.zero;
     }
 }
