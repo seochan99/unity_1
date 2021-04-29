@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets/Simple 2D Platformer BE2/ReadMe/Scripts/ReadmeBE2.cs" />
     <Compile Include="Assets/script/PlayerMove.cs" />
+    <Compile Include="Assets/script/Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
