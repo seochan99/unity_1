@@ -56,9 +56,10 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/script/Enemy.cs" />
     <Compile Include="Assets/Simple 2D Platformer BE2/ReadMe/Scripts/ReadmeBE2.cs" />
     <Compile Include="Assets/script/PlayerMove.cs" />
-    <Compile Include="Assets/script/Enemy.cs" />
+    <Compile Include="Assets/script/GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

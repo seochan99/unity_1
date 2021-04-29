@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public GameManager gameManager;
     public float maxSpeed;// 최대속도 설정
     public float jumpPower; // 점프파워 
     Rigidbody2D rigid;
@@ -33,7 +34,7 @@ public class PlayerMove : MonoBehaviour
         }
 
         // change Direction
-        if(Input.GetButtonDown("Horizontal"))
+        if(Input.GetButton("Horizontal"))
             spriteRenderer.flipX = Input.GetAxisRaw("Horizontal") == -1;
 
         // work animation
@@ -71,6 +72,82 @@ public class PlayerMove : MonoBehaviour
                 }
             }
         }
+
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag =="Enemy")
+        {
+            // Attack
+            if(rigid.velocity.y<0 && transform.position.y > collision.transform.position.y)
+            {
+                OnAttack(collision.transform);
+            }
+            else // damaged
+            {
+                OnDamaged(collision.transform.position);
+            }
+        }
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag =="item")
+        {
+            //point
+            bool isBronze = collision.gameObject.name.Contains("item");
+            bool isSilver = collision.gameObject.name.Contains("silver");
+            bool isGold = collision.gameObject.name.Contains("gold");
+
+            if (isBronze)
+                gameManager.stagePoint += 50;
+            else if (isSilver)
+                gameManager.stagePoint += 100;
+            else if (isGold)
+                gameManager.stagePoint += 200;
+
+            //Deactive item
+            collision.gameObject.SetActive(false);
+        }
+        else if(collision.gameObject.tag == "Finish")
+        {
+            // next stage
+
+        }
+    }
+
+    void OnAttack(Transform enemy)
+    {
+        // point
+        gameManager.stagePoint += 100;
+        //jump reaction
+        rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+        //Enemy Die
+        Enemy enemyMove = enemy.GetComponent<Enemy>();
+        enemyMove.OnDamaged();
+
+    }
+
+    void OnDamaged(Vector2 targetPos)
+    {
+        gameObject.layer = 9;
+
+        //view alpha
+        spriteRenderer.color = new Color(1, 1, 1, 0.4f);
+
+        // Reaction Force
+        int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
+        rigid.AddForce(new Vector2(dirc, 1)*7, ForceMode2D.Impulse);
+
+        // Animation
+        anim.SetTrigger("doDamaged");
+
+        Invoke("OffDamaged", 3);
+    }
+
+    void OffDamaged()
+    {
+        gameObject.layer = 8;
+        spriteRenderer.color = new Color(1, 1, 1, 1);
 
     }
 }
