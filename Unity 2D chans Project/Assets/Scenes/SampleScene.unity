@@ -12179,7 +12179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1817795830
 Transform:
   m_ObjectHideFlags: 0
@@ -12370,7 +12370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1832678020
 Transform:
   m_ObjectHideFlags: 0
@@ -12431,7 +12431,7 @@ MonoBehaviour:
   totalPoint: 0
   stagePoint: 0
   stageIndex: 0
-  health: 3
+  health: 10
   player: {fileID: 871239177}
   Stages:
   - {fileID: 1832678019}
