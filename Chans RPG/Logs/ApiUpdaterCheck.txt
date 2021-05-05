@@ -1,0 +1,54 @@
+[api-updater (non-obsolete-error-filter)] 2021-05-05 PM 9:56:29 : Starting /Applications/2020.3.3f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 427.68ms
+moved types parse time: 140ms
+candidates parse time : 6ms
+C# parse time         : 875ms
+candidates check time : 376ms
+console write time    : 14ms
+
+[api-updater (non-obsolete-error-filter)] 2021-05-05 PM 9:56:40 : Starting /Applications/2020.3.3f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 91.943ms
+moved types parse time: 129ms
+candidates parse time : 7ms
+C# parse time         : 761ms
+candidates check time : 336ms
+console write time    : 13ms
+
+[api-updater (non-obsolete-error-filter)] 2021-05-05 PM 10:03:39 : Starting /Applications/2020.3.3f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/seochan/Documents/chans coding/unity_1/Chans RPG/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <6358200448ef46218e7be4a1b6be469f>:0 
+	Could not load file or assembly 'UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 133.601ms
+moved types parse time: 133ms
+candidates parse time : 6ms
+C# parse time         : 862ms
+candidates check time : 344ms
+console write time    : 14ms
+
+[api-updater (non-obsolete-error-filter)] 2021-05-05 PM 10:03:49 : Starting /Applications/2020.3.3f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/seochan/Documents/chans coding/unity_1/Chans RPG/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <6358200448ef46218e7be4a1b6be469f>:0 
+	Could not load file or assembly 'UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 90.565ms
+moved types parse time: 131ms
+candidates parse time : 7ms
+C# parse time         : 841ms
+candidates check time : 325ms
+console write time    : 13ms
+
