@@ -1,0 +1,298 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/2020.3.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/seochan/Documents/chans coding/unity_1/New Unity Project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49784
+Successfully changed project path to: /Users/seochan/Documents/chans coding/unity_1/New Unity Project (1)
+/Users/seochan/Documents/chans coding/unity_1/New Unity Project (1)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/seochan/Documents/chans coding/unity_1/New Unity Project (1)/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-09 19:58:39.199 Unity[1649:25149] (null) preferred device: Apple M1 (high power)
+2021-05-09 19:58:39.199 Unity[1649:25149] Metal devices available: 1
+2021-05-09 19:58:39.199 Unity[1649:25149] 0: Apple M1 (high power)
+2021-05-09 19:58:39.199 Unity[1649:25149] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/2020.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56649
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.3f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002659 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.825 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.930 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.9 MB.
+System memory in use after: 146.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 1.609833 ms (FindLiveObjects: 0.141083 ms CreateObjectMapping: 0.050042 ms MarkObjects: 1.290375 ms  DeleteObjects: 0.127208 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(66fc3e5fd36644a238bde5a28d0610ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(66fc3e5fd36644a238bde5a28d0610ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae9ff0df093e92e5edae2986b99e617') in 0.006637 seconds
+  Import took 0.009014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Pixel Adventure 1/Assets
+  artifactKey: Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets using Guid(e7fabf8f9d1b6f6499883b9c8ad15b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d5505392bcbe2887b1876985ebbd13') in 0.000442 seconds
+  Import took 0.002138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Pixel Adventure 1
+  artifactKey: Guid(e900a49792d8d4893b384c56b0e5ded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1 using Guid(e900a49792d8d4893b384c56b0e5ded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf911e10508290f8f648d12f610b5e4') in 0.000425 seconds
+  Import took 0.002025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.682420 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background
+  artifactKey: Guid(e2c5ef056991e3c4b902833ce4b5c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background using Guid(e2c5ef056991e3c4b902833ce4b5c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a330a2764c98395284f78bbb3b038f') in 0.000884 seconds
+  Import took 0.004001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107227 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Blue.png
+  artifactKey: Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Blue.png using Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc57b01bcd6756d977a93f0f61fb82ae') in 0.877970 seconds
+  Import took 0.880679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Gray.png
+  artifactKey: Guid(ffc80c129c9aca14c9fb4dbeba0e10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Gray.png using Guid(ffc80c129c9aca14c9fb4dbeba0e10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee913190f03abc6149ee6a13c39b816') in 0.009720 seconds
+  Import took 0.011796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Green.png
+  artifactKey: Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Green.png using Guid(2538710101d0f1f4e8976b3495cd1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64059fa2f9834134c6d5203f8855af0') in 0.005750 seconds
+  Import took 0.007830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Yellow.png
+  artifactKey: Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Yellow.png using Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bc4335dd22d5e33f206ec4db4931b3') in 0.005641 seconds
+  Import took 0.007730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Pink.png
+  artifactKey: Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Pink.png using Guid(348c3b734b11d3b4aa5c69e25b7113e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a81b01efed39b455e58731b8ab6259') in 0.005532 seconds
+  Import took 0.007571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Brown.png
+  artifactKey: Guid(ca6a66f8e2ae9c24c8c6b39c49206a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Brown.png using Guid(ca6a66f8e2ae9c24c8c6b39c49206a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465f74e4b50fb6e2adafabba0c80ee7') in 0.005528 seconds
+  Import took 0.007579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Purple.png
+  artifactKey: Guid(248611cc7bb8d85448933cee393ce41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Purple.png using Guid(248611cc7bb8d85448933cee393ce41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfd2ad31d62e7d48d7ead66cb37691b') in 0.009909 seconds
+  Import took 0.011983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031379 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Blue.png
+  artifactKey: Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Blue.png using Guid(8049ea91a9d5fca4dab4024c0915dbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc57b01bcd6756d977a93f0f61fb82ae') in 0.005400 seconds
+  Import took 0.008042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.955644 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e83ab7d5b398485b69fa6e1ac8300b') in 0.696138 seconds
+  Import took 0.698711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.958816 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Blue.asset
+  artifactKey: Guid(d40cc971b9cf6466d96c79ee2fddfd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Blue.asset using Guid(d40cc971b9cf6466d96c79ee2fddfd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf10b14d7608f1899421bfc57bc3e45c') in 0.193738 seconds
+  Import took 0.196346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7a5c6e0d291766710a4e03ae1627e3') in 0.003910 seconds
+  Import took 0.005956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.581113 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936908eba65d5ea7ff85b1e1f060413d') in 0.002933 seconds
+  Import took 0.005887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.462592 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90e07fc0b2c496524ebdb2e7d526ee9') in 0.002826 seconds
+  Import took 0.005633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.633117 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/Gray.asset
+  artifactKey: Guid(014a5c12247674558811b9b867437280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/Gray.asset using Guid(014a5c12247674558811b9b867437280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74abf20ea3351453553b653f9706e22') in 0.005782 seconds
+  Import took 0.008456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02957e0c3625e9d8db5f711cb286dd38') in 0.002696 seconds
+  Import took 0.005046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.385814 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470ab4d287007acd7caad65c4338ba60') in 0.003493 seconds
+  Import took 0.006420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002426 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd17202199b844c3d06546daf56f269') in 0.003357 seconds
+  Import took 0.006326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.600434 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fb440b21e7378e2046ed3889cd6cae') in 0.003268 seconds
+  Import took 0.006196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.611857 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62648484154233636c4f3e8fc308f17') in 0.005295 seconds
+  Import took 0.008405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.393783 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ba823cd7e22274f342f9781e719bea') in 0.003447 seconds
+  Import took 0.006681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578659 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7582bf78947cf2fa383e9b0d7f307d5') in 0.003066 seconds
+  Import took 0.005753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.031944 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db9f78c8a01928d757a0a85fe7dd0eb') in 0.003296 seconds
+  Import took 0.006211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.205545 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90b19260550f78dd518b32b10cf72b4') in 0.003488 seconds
+  Import took 0.006529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.006469 seconds.
+  path: Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab
+  artifactKey: Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Adventure 1/Assets/Background/New Palette.prefab using Guid(8d430aaedf8dc4e2481892dcc1c44351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bbd89ea551d956e88be600966c3532') in 0.003429 seconds
+  Import took 0.006347 seconds .
+
