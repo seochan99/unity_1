@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{127A3637-8F8E-AB06-89E0-1247DF0594F4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Player.cs">
+    <Files>
+      <File FileName="../../../../../../Applications/2020.3.3f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.2d.sprite/Editor/SpriteEditorModule/TextureImporterDataProvider.cs" Line="174" Column="1" />
+      <File FileName="Assets/Script/Player.cs" Line="36" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="846c169c-3293-4a70-87aa-4864899c64ca" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
