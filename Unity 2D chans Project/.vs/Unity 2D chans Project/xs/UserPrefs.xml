@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{2DFDE6E5-F514-E58B-F200-5200AE394890}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/PlayerMove.cs">
     <Files>
-      <File FileName="Assets/script/PlayerMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/PlayerMove.cs" Line="42" Column="26" />
       <File FileName="Assets/script/Enemy.cs" Line="8" Column="1" />
       <File FileName="Assets/script/GameManager.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4e624aca-1b8b-410a-812e-a895b7843fef" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="68c85919-17e7-458e-9f84-f02dc3e73f3b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
