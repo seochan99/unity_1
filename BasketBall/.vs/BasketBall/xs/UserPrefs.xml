@@ -1,12 +1,8 @@
-﻿<Properties StartupConfiguration="{05A53AF0-D351-C13E-8057-D830A87E6DDA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UI_start.cs">
-    <Files>
-      <File FileName="Assets/UI_start.cs" Line="9" Column="106" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1808ffd5-ec35-4639-91c0-8f759e2f4b74" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d0cea62b-03b0-40cc-9b90-8cf68239a88c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
